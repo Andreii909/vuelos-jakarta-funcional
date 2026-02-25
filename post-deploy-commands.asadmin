@@ -1,0 +1,2 @@
+create-jdbc-connection-pool --restype javax.sql.DataSource --datasourceclassname org.postgresql.ds.PGSimpleDataSource --property user=bd_vuelos_jpyr_user:password=QUJis4lGD3O61ZjVkLVFcBIjfCqn3cGY:url=jdbc\:postgresql\://dpg-d6evrn24d50c73cmdiqg-a\:5432/bd_vuelos_jpyr bdvuelosPool
+create-jdbc-resource --poolname bdvuelosPool jdbc/vuelosDS
